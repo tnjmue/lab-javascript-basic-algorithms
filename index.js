@@ -39,6 +39,21 @@ const driverRev = hacker1[2] + hacker1[1] + hacker1[0];
 console.log(driverRev); 
 
 // 3.3
-const sorted = hacker1 + hacker2;
-const moreSorted = sorted.sort()
-console.log(moreSorted)
+
+if (hacker1 > hacker2){
+
+    console.log(`The driver's name goes first.`);
+
+}
+
+else if(hacker1 < hacker2) {
+    
+    console.log(`Yo, the navigator goes first, definitely.`);
+
+}
+
+else if (hacker1 = hacker2) {
+
+   console.log(`What?! You both have the same name?`);
+
+}
