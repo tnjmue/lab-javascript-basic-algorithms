@@ -27,5 +27,18 @@ else if (hacker1.length === hacker2.length) {
     console.log(`Wow, you both have equally long names, ${hacker2.length} characters!`)
 
 }
+
 // Iteration 3: Loops
 
+// 3.1
+const driver = hacker1[0] + " " + hacker1[1].toUpperCase() + " " + hacker1[2].toUpperCase();
+console.log(driver);
+
+// 3.2
+const driverRev = hacker1[2] + hacker1[1] + hacker1[0];
+console.log(driverRev); 
+
+// 3.3
+const sorted = hacker1 + hacker2;
+const moreSorted = sorted.sort()
+console.log(moreSorted)
