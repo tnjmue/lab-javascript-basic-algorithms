@@ -31,8 +31,18 @@ else if (hacker1.length === hacker2.length) {
 // Iteration 3: Loops
 
 // 3.1
-const driverSpace = hacker1[0] + " " + hacker1[1].toUpperCase() + " " + hacker1[2].toUpperCase();
-console.log(driverSpace);
+/* const driverSpace = hacker1[0] + " " + hacker1[1].toUpperCase() + " " + hacker1[2].toUpperCase();
+console.log(driverSpace); */
+
+let driverSpace = "";
+
+for (let t = 0; t <= hacker1.length -1; t++) {
+
+    driverSpace += hacker1[t].toUpperCase();
+    driverSpace += " ";
+
+}
+   console.log(driverSpace);
 
 // 3.2
 /* const driverRev = hacker1[2] + hacker1[1] + hacker1[0];
